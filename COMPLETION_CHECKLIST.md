@@ -70,3 +70,11 @@ Rule: Check an item only after comparing against the source or testing the publi
 ### AllRoad image verification detail
 - [x] Source homepage image audit captured: one Base44-hosted logo repeated in header/footer and five unique Unsplash photographs (hero, shipping, road, rail, coastal; some reused in service panels).
 - [ ] Match each copied local file to the exact source photograph and verify all source image placements, responsive crops and alt text; source image filenames are not evidence of a correct match.
+
+## Repository-level checks
+- [x] Inspected the repository file tree and confirmed the root homepage file and deployment workflow path.
+- [x] Compared local asset filenames against references in the root homepage HTML.
+- [x] Scanned the root homepage HTML for Base44, Supabase, and Unsplash URL references: none found in `index.html`.
+- [ ] Scan every repository file, document, metadata field and deployed network request for any remaining third-party/Base44 runtime or media dependency.
+- [ ] Confirm all listed local assets are source-matched and used in the appropriate page; unused files are not removed until their role is understood.
+- [ ] Verify the latest deployment for this checklist commit and smoke-test every route and asset after deployment.
