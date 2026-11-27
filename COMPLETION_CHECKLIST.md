@@ -66,3 +66,7 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [x] Direct request to the copy's `/Home` path returned GitHub Pages 404 during this check.
 - [ ] Compare root homepage and all source page routes side by side; route coverage and homepage parity remain open.
 - [ ] Verify cookie preference persistence, accessibility controls, chat behavior, account, quote and tracking flows in the independent copy.
+
+### AllRoad image verification detail
+- [x] Source homepage image audit captured: one Base44-hosted logo repeated in header/footer and five unique Unsplash photographs (hero, shipping, road, rail, coastal; some reused in service panels).
+- [ ] Match each copied local file to the exact source photograph and verify all source image placements, responsive crops and alt text; source image filenames are not evidence of a correct match.
