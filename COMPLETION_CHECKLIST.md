@@ -59,3 +59,10 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [ ] Check browser console, failed network requests, broken links, 404s, image loading and performance on desktop/mobile.
 - [ ] Verify GitHub Actions deployment succeeds; open the live deployed copy in a fresh session and directly load/refresh every route.
 - [ ] Record final verification date, deployed commit, public URL, and any remaining limitation. Custom domain/DNS is intentionally deferred until requested.
+
+## Verified audit notes — 2026-11-27
+- [x] Inspected source homepage navigation and visible home sections. Source links include distinct pages, service dropdowns, account, blog, quote, tracking, legal pages, cookie consent, accessibility options, and chat.
+- [x] Confirmed source home uses a Base44-hosted logo plus Unsplash photography; the copy needs to use its own local equivalents throughout.
+- [x] Direct request to the copy's `/Home` path returned GitHub Pages 404 during this check.
+- [ ] Compare root homepage and all source page routes side by side; route coverage and homepage parity remain open.
+- [ ] Verify cookie preference persistence, accessibility controls, chat behavior, account, quote and tracking flows in the independent copy.
