@@ -78,3 +78,17 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [ ] Scan every repository file, document, metadata field and deployed network request for any remaining third-party/Base44 runtime or media dependency.
 - [ ] Confirm all listed local assets are source-matched and used in the appropriate page; unused files are not removed until their role is understood.
 - [ ] Verify the latest deployment for this checklist commit and smoke-test every route and asset after deployment.
+
+### AllRoad route-by-route source inventory (browser-checked 2026-11-27)
+- [x] About: Who We Are, four stated core values, and Our Mission content observed.
+- [x] Services: five service offerings and these canonical source routes observed: `/services/sea`, `/services/road`, `/services/rail`, `/services/multimodal`, `/services/insurance`.
+- [x] Quote: separate multi-step visual sections for Your Information, Cargo Details, and Additional Notes; fields include full name, email, phone, company, service type, origin, destination, cargo type, estimated weight and notes.
+- [x] Track Order: shipment-reference input and Track action; result/loading/empty/error behavior still needs testing and a real backend.
+- [x] Blog listing: six linked posts observed — `sea-freight-trends-2025`, `road-freight-balkans`, `multimodal-transport-benefits`, `cargo-insurance-guide`, `rail-europe-asia`, `sustainability-logistics`.
+- [x] Blog post: one detail page checked; includes category, title, date, author, likes, article body, and Back to Blog link.
+- [x] Contact: business address, phone, email, business hours, contact form with full name/email/subject/message, and embedded Google map observed.
+- [x] Cookie Policy and Accessibility pages observed; policy copy describes consent storage, Analytics/Marketing cookies, text scaling and high contrast controls.
+- [x] Source has shared cookie banner, accessibility widget and chat button; verify every control’s independent-copy behavior.
+- [ ] Inspect and compare every remaining Blog post, all five service detail pages, legal pages, testimonials, and mobile layouts.
+- [ ] Determine whether source Account is intentionally empty: direct `/Account` currently renders only shared header/footer and cookie banner. Verify actual login/signup buttons before implementing.
+- [ ] Compare each source photo against local candidates. The source uses five unique freight photos on Home and additional article photos (including insurance and sustainability) that need individual mapping.
