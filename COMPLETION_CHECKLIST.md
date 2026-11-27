@@ -92,3 +92,14 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [ ] Inspect and compare every remaining Blog post, all five service detail pages, legal pages, testimonials, and mobile layouts.
 - [ ] Determine whether source Account is intentionally empty: direct `/Account` currently renders only shared header/footer and cookie banner. Verify actual login/signup buttons before implementing.
 - [ ] Compare each source photo against local candidates. The source uses five unique freight photos on Home and additional article photos (including insurance and sustainability) that need individual mapping.
+
+
+## Source route audit — additional verified detail
+- [x] Source About page: four core values (Global Reach, Client-Focused, On Time Delivery, Reliable & Secure) and mission section recorded.
+- [x] Source Services page exposes Sea, Road, Rail, Multimodal and Insurance destinations.
+- [x] Quote form field inventory recorded: name, email, phone, company, service, origin, destination, cargo type, estimated weight and notes.
+- [x] Contact page includes Novi Sad contact details, contact form and map; cookie banner, accessibility control and chat widget appear on source.
+- [x] Blog listing has six identified article slugs: sea freight trends, Balkans road freight, multimodal benefits, cargo insurance, Europe–Asia rail and sustainability.
+- [x] Source Account navigation resolves to a login flow; implementation must inventory exact login behavior before replacing it.
+- [ ] Source-matched image audit remains open: three local candidates (coastal-card.webp, road-card.webp, sea-card.webp) are unused by root HTML; map each to source card and article placement.
+- [ ] Recreate and verify each post detail page, cookie/accessibility/chat behavior, and all route destinations.
