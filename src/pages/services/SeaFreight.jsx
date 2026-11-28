@@ -18,7 +18,7 @@ export default function SeaFreight() {
     <div className="font-inter">
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1920&q=80" alt="Sea Freight" className="w-full h-full object-cover" />
+          <img src="/allroad-transport.com/assets/unsplash/photo-1494412574643-ff11b0a5c1c3.jpg" alt="Sea Freight" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-navy/85" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
@@ -55,7 +55,7 @@ export default function SeaFreight() {
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-              <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80" alt="Sea Freight" className="rounded-2xl shadow-2xl shadow-black/10 w-full h-80 object-cover" />
+              <img src="/allroad-transport.com/assets/unsplash/photo-1494412574643-ff11b0a5c1c3.jpg" alt="Sea Freight" className="rounded-2xl shadow-2xl shadow-black/10 w-full h-80 object-cover" />
             </motion.div>
           </div>
         </div>

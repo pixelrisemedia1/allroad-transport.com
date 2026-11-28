@@ -113,7 +113,7 @@ export default function Testimonials() {
       {/* Hero */}
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?w=1920&q=80" alt="Testimonials" className="w-full h-full object-cover" />
+          <img src="/allroad-transport.com/assets/unsplash/photo-1606836591695-4d58a73eba1e.jpg" alt="Testimonials" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-navy/85" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">

@@ -12,12 +12,12 @@ import { base44 } from "@/api/base44Client";
 const STORAGE_KEY = "allroad_blog_posts";
 
 const INITIAL_POSTS = [
-  { id: "sea-freight-trends-2025", title: "Sea Freight Trends in 2025: What Shippers Need to Know", excerpt: "The global shipping industry is evolving rapidly. We explore key trends shaping container shipping, port congestion solutions, and what to expect in the year ahead.", category: "Industry News", date: "March 10, 2026", author: "ALLROAD Team", image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80", likes: 24, rating: 5 },
-  { id: "road-freight-balkans", title: "Road Freight in the Balkans: Opportunities and Challenges", excerpt: "Serbia's strategic position in Southeast Europe makes it a key logistics hub. We look at how ALLROAD navigates the Balkans road freight landscape.", category: "Company", date: "February 25, 2026", author: "ALLROAD Team", image: "https://images.unsplash.com/photo-1519003300449-424ad0405076?w=800&q=80", likes: 18, rating: 4 },
-  { id: "multimodal-transport-benefits", title: "5 Benefits of Multimodal Transport for Your Supply Chain", excerpt: "Combining sea, road, and rail transport can dramatically reduce costs and transit times. Discover how multimodal logistics can transform your supply chain.", category: "Logistics Tips", date: "February 8, 2026", author: "ALLROAD Team", image: "https://images.unsplash.com/photo-1619468129361-605ebea04b44?w=800&q=80", likes: 31, rating: 5 },
-  { id: "cargo-insurance-guide", title: "The Complete Guide to Cargo Insurance", excerpt: "Protecting your goods during transit is essential. This guide covers everything from all-risk policies to what to do when a claim arises.", category: "Logistics Tips", date: "January 20, 2026", author: "ALLROAD Team", image: "https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?w=800&q=80", likes: 15, rating: 4 },
-  { id: "rail-europe-asia", title: "Rail Freight Between Europe and Asia: A Growing Alternative", excerpt: "With sea freight delays and air freight costs rising, Europe-Asia rail corridors are gaining traction. We analyze the current state and future prospects.", category: "Industry News", date: "January 5, 2026", author: "ALLROAD Team", image: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=800&q=80", likes: 22, rating: 5 },
-  { id: "sustainability-logistics", title: "Sustainability in Logistics: Reducing Our Carbon Footprint", excerpt: "The logistics industry accounts for a significant portion of global CO₂ emissions. Here's what we're doing to build a more sustainable freight operation.", category: "Company", date: "December 18, 2025", author: "ALLROAD Team", image: "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?w=800&q=80", likes: 19, rating: 5 },
+  { id: "sea-freight-trends-2025", title: "Sea Freight Trends in 2025: What Shippers Need to Know", excerpt: "The global shipping industry is evolving rapidly. We explore key trends shaping container shipping, port congestion solutions, and what to expect in the year ahead.", category: "Industry News", date: "March 10, 2026", author: "ALLROAD Team", image: "/allroad-transport.com/assets/unsplash/photo-1494412574643-ff11b0a5c1c3.jpg", likes: 24, rating: 5 },
+  { id: "road-freight-balkans", title: "Road Freight in the Balkans: Opportunities and Challenges", excerpt: "Serbia's strategic position in Southeast Europe makes it a key logistics hub. We look at how ALLROAD navigates the Balkans road freight landscape.", category: "Company", date: "February 25, 2026", author: "ALLROAD Team", image: "/allroad-transport.com/assets/unsplash/photo-1519003300449-424ad0405076.jpg", likes: 18, rating: 4 },
+  { id: "multimodal-transport-benefits", title: "5 Benefits of Multimodal Transport for Your Supply Chain", excerpt: "Combining sea, road, and rail transport can dramatically reduce costs and transit times. Discover how multimodal logistics can transform your supply chain.", category: "Logistics Tips", date: "February 8, 2026", author: "ALLROAD Team", image: "/allroad-transport.com/assets/unsplash/photo-1619468129361-605ebea04b44.jpg", likes: 31, rating: 5 },
+  { id: "cargo-insurance-guide", title: "The Complete Guide to Cargo Insurance", excerpt: "Protecting your goods during transit is essential. This guide covers everything from all-risk policies to what to do when a claim arises.", category: "Logistics Tips", date: "January 20, 2026", author: "ALLROAD Team", image: "/allroad-transport.com/assets/unsplash/photo-1570710891163-6d3b5c47248b.jpg", likes: 15, rating: 4 },
+  { id: "rail-europe-asia", title: "Rail Freight Between Europe and Asia: A Growing Alternative", excerpt: "With sea freight delays and air freight costs rising, Europe-Asia rail corridors are gaining traction. We analyze the current state and future prospects.", category: "Industry News", date: "January 5, 2026", author: "ALLROAD Team", image: "/allroad-transport.com/assets/unsplash/photo-1474487548417-781cb71495f3.jpg", likes: 22, rating: 5 },
+  { id: "sustainability-logistics", title: "Sustainability in Logistics: Reducing Our Carbon Footprint", excerpt: "The logistics industry accounts for a significant portion of global CO₂ emissions. Here's what we're doing to build a more sustainable freight operation.", category: "Company", date: "December 18, 2025", author: "ALLROAD Team", image: "/allroad-transport.com/assets/unsplash/photo-1606836591695-4d58a73eba1e.jpg", likes: 19, rating: 5 },
 ];
 
 function loadPosts() {
@@ -97,7 +97,7 @@ export default function Blog() {
       ...newPost,
       date: new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }),
       author: "Community",
-      image: newPost.image || "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80",
+      image: newPost.image || "/allroad-transport.com/assets/unsplash/photo-1494412574643-ff11b0a5c1c3.jpg",
       likes: 0,
       rating: 0,
     };
@@ -113,7 +113,7 @@ export default function Blog() {
       {/* Hero */}
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?w=1920&q=80" alt="Blog" className="w-full h-full object-cover" />
+          <img src="/allroad-transport.com/assets/unsplash/photo-1606836591695-4d58a73eba1e.jpg" alt="Blog" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-navy/85" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">

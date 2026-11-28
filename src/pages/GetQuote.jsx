@@ -40,7 +40,7 @@ export default function GetQuote() {
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1605745341112-85968b19335b?w=1920&q=80"
+            src="/allroad-transport.com/assets/unsplash/photo-1605745341112-85968b19335b.jpg"
             alt="Shipping"
             className="w-full h-full object-cover"
           />

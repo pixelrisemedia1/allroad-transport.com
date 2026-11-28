@@ -9,7 +9,7 @@ export default function HeroSection() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1605745341112-85968b19335b?w=1920&q=80"
+          src="/allroad-transport.com/assets/unsplash/photo-1605745341112-85968b19335b.jpg"
           alt="Container ship"
           className="w-full h-full object-cover"
         />

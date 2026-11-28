@@ -15,7 +15,7 @@ export default function About() {
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1920&q=80"
+            src="/allroad-transport.com/assets/unsplash/photo-1494412574643-ff11b0a5c1c3.jpg"
             alt="Shipping"
             className="w-full h-full object-cover"
           />
@@ -60,7 +60,7 @@ export default function About() {
               className="rounded-2xl overflow-hidden shadow-2xl"
             >
               <img
-                src="https://images.unsplash.com/photo-1619468129361-605ebea04b44?w=800&q=80"
+                src="/allroad-transport.com/assets/unsplash/photo-1619468129361-605ebea04b44.jpg"
                 alt="Logistics"
                 className="w-full h-80 object-cover"
               />

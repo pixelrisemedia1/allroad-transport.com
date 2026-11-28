@@ -6,31 +6,31 @@ const SERVICES = [
   {
     icon: Ship,
     title: "Sea Freight",
-    image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80",
+    image: "/allroad-transport.com/assets/unsplash/photo-1494412574643-ff11b0a5c1c3.jpg",
     description: "Our vast sea transport experience allows us to offer our clients a full service for different types of cargo: transportation in containers, bulk, oversize and overweight cargo. A wide range of counterparties and long-term relations with shipping lines allow us to provide access to the global portfolio of carriers, covering major ports worldwide. We provide constant tracking of freight rates and transit time evaluation to ensure the best possible shipment cost optimization.",
   },
   {
     icon: Truck,
     title: "Road Freight",
-    image: "https://images.unsplash.com/photo-1519003300449-424ad0405076?w=800&q=80",
+    image: "/allroad-transport.com/assets/unsplash/photo-1519003300449-424ad0405076.jpg",
     description: "Door-to-door delivery is impossible without automobile transport. We provide the broad geographical spread around the world. Our asset management model allows us to choose highly-qualified subcontractors in accordance with diverse client requirements emphasizing on security and professionalism.",
   },
   {
     icon: TrainFront,
     title: "Rail Freight",
-    image: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=800&q=80",
+    image: "/allroad-transport.com/assets/unsplash/photo-1474487548417-781cb71495f3.jpg",
     description: "ALLROAD rail transport solutions provide cargo delivery across the US, Europe and Asia. Our rail department always seeks to offer our clients the most cost-efficient solutions and estimate the precise delivery time. We monitor container locations every day of rail transportation.",
   },
   {
     icon: Shuffle,
     title: "Multimodal Transportation",
-    image: "https://images.unsplash.com/photo-1619468129361-605ebea04b44?w=800&q=80",
+    image: "/allroad-transport.com/assets/unsplash/photo-1619468129361-605ebea04b44.jpg",
     description: "We are ready to offer several methods of transportation coordinating different modes of transport, fulfilling client's request. It could be either the fastest or the cheapest way. Ability to choose from ocean and feeder carriers, direct contracts with railway, automobile transport companies, seaports and information systems.",
   },
   {
     icon: Shield,
     title: "Cargo Insurance",
-    image: "https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?w=800&q=80",
+    image: "/allroad-transport.com/assets/unsplash/photo-1570710891163-6d3b5c47248b.jpg",
     description: "It is very convenient to have all freight transportation relating procedures under control of one company. It facilitates document and information interchange, and streamlines the organization of deliveries. For this reason and at customer's option, we maintain all-risk cargo insurance for complete peace of mind.",
   },
 ];
@@ -42,7 +42,7 @@ export default function Services() {
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1605745341112-85968b19335b?w=1920&q=80"
+            src="/allroad-transport.com/assets/unsplash/photo-1605745341112-85968b19335b.jpg"
             alt="Container ship"
             className="w-full h-full object-cover"
           />

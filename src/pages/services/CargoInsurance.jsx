@@ -18,7 +18,7 @@ export default function CargoInsurance() {
     <div className="font-inter">
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?w=1920&q=80" alt="Cargo Insurance" className="w-full h-full object-cover" />
+          <img src="/allroad-transport.com/assets/unsplash/photo-1570710891163-6d3b5c47248b.jpg" alt="Cargo Insurance" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-navy/85" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
@@ -55,7 +55,7 @@ export default function CargoInsurance() {
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-              <img src="https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?w=800&q=80" alt="Cargo Insurance" className="rounded-2xl shadow-2xl shadow-black/10 w-full h-80 object-cover" />
+              <img src="/allroad-transport.com/assets/unsplash/photo-1570710891163-6d3b5c47248b.jpg" alt="Cargo Insurance" className="rounded-2xl shadow-2xl shadow-black/10 w-full h-80 object-cover" />
             </motion.div>
           </div>
         </div>

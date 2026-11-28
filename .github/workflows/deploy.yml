@@ -20,6 +20,11 @@ jobs:
           node-version: 20
       - run: mkdir -p public/assets && cp assets/*.webp public/assets/ 2>/dev/null || true
       - run: npm install --no-audit --no-fund
+      - name: Restore local photos
+        run: |
+          cat migration/allroad-unsplash.tar.gz.part-* > /tmp/allroad-unsplash.tar.gz
+          mkdir -p public/assets/unsplash
+          tar -xzf /tmp/allroad-unsplash.tar.gz -C public/assets/unsplash
       - run: npm run build
       - run: cp dist/index.html dist/404.html
       - uses: actions/configure-pages@v5

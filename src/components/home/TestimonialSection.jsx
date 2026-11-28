@@ -5,7 +5,7 @@ export default function TestimonialSection() {
     <section className="relative py-28 overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?w=1920&q=80"
+          src="/allroad-transport.com/assets/unsplash/photo-1606836591695-4d58a73eba1e.jpg"
           alt="Logistics background"
           className="w-full h-full object-cover"
         />

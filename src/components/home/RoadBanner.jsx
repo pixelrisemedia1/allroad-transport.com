@@ -7,7 +7,7 @@ export default function RoadBanner() {
     <section className="relative py-24 overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1519003300449-424ad0405076?w=1920&q=80"
+          src="/allroad-transport.com/assets/unsplash/photo-1519003300449-424ad0405076.jpg"
           alt="Road"
           className="w-full h-full object-cover"
         />

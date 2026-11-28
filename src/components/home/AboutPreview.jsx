@@ -46,22 +46,22 @@ export default function AboutPreview() {
             className="grid grid-cols-2 gap-3"
           >
             <img
-              src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=400&q=80"
+              src="/allroad-transport.com/assets/unsplash/photo-1494412574643-ff11b0a5c1c3.jpg"
               alt="Shipping"
               className="rounded-xl shadow-lg h-40 sm:h-48 object-cover w-full"
             />
             <img
-              src="https://images.unsplash.com/photo-1519003300449-424ad0405076?w=400&q=80"
+              src="/allroad-transport.com/assets/unsplash/photo-1519003300449-424ad0405076.jpg"
               alt="Road transport"
               className="rounded-xl shadow-lg h-40 sm:h-48 object-cover w-full mt-6"
             />
             <img
-              src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=400&q=80"
+              src="/allroad-transport.com/assets/unsplash/photo-1474487548417-781cb71495f3.jpg"
               alt="Rail freight"
               className="rounded-xl shadow-lg h-40 sm:h-48 object-cover w-full"
             />
             <img
-              src="https://images.unsplash.com/photo-1619468129361-605ebea04b44?w=400&q=80"
+              src="/allroad-transport.com/assets/unsplash/photo-1619468129361-605ebea04b44.jpg"
               alt="Coastal"
               className="rounded-xl shadow-lg h-40 sm:h-48 object-cover w-full mt-6"
             />
