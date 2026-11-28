@@ -1,0 +1,1 @@
+const fallback=new Proxy(async()=>[],{get:(_t,k)=>k==="then"?undefined:fallback,apply:()=>Promise.resolve([])});const auth={isAuthenticated:async()=>false,me:async()=>null,logout:async()=>{},redirectToLogin:()=>{}};export const base44=new Proxy({auth},{get:(t,k)=>k in t?t[k]:fallback});
